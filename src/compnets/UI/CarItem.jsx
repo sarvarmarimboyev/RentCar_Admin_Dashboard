@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../../styles/booking.css'
 const CarItem = (props) => {
     const {category,type,rentprice,imgUrl,carName,groupSize}=props.item;
   return (
@@ -14,7 +14,7 @@ const CarItem = (props) => {
         <p>{category}</p>
       </div>
 
-      <div className="car__img">
+    `` <div className="car__img">
         <img src={imgUrl} alt="" />
       </div>
       <div className="car__item-bottom">
