@@ -11,7 +11,7 @@ const Sidebar = () => {
           <span>
             <i class="ri-taxi-line"></i>
           </span>
-          Uberx
+          Admin Panel
         </h2>
       </div>
       <div className="sidebar__content">
@@ -38,7 +38,6 @@ const Sidebar = () => {
             <i class="ri-logout-circle-r-line"></i>Logout
           </span>
         </div>
-      
       </div>
     </div>
   );
